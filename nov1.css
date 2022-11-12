@@ -1,0 +1,78 @@
+.wrapper {
+    display:grid;
+    grid-template-columns:25% 75%;
+    height:99%;
+    width:99%;
+       }
+#d1 {
+        grid-column-start:1;
+        grid-column-end:3;
+        background-color: greenyellow;
+        margin-bottom: 10px;
+        }
+#d2 {
+        background-color:greenyellow;
+        font-size: 20pt;
+        grid-column-start: 2;
+        grid-column-end:3;   
+        margin: 10px;
+        }
+#d3 {
+         background-color:greenyellow;
+         grid-row-start:2;
+         grid-row-end:4; 
+         margin: 10px;     
+        }
+#d4 {
+        background-color: greenyellow;
+        font-size: 20pt;
+        background-color:greenyellow;    
+        margin: 10px;
+        }
+div:hover {
+        background-color:aqua;
+}
+
+#d5 {
+        background-color:greenyellow;
+        grid-column-start: 1;
+        grid-column-end:3;
+         }
+nav {
+        background-color: lightcoral;
+}
+nav ul {
+         margin: 0;
+         padding: 0;
+         width: 7em;
+         background: white;
+         border: 1px solid;
+           }
+           
+nav li {
+         position: relative;
+         list-style: none;
+         margin: 0;
+         border-bottom: 1px solid #CCC;
+           }
+nav li:hover {
+        background-color: royalblue;
+}
+nav ul ul {
+        position:fixed;
+        left: 7em;
+        display: block;
+    }
+.button {
+    font-size: 1.1em;
+    background-color: #EBF5FF;
+    color: #4312AE;
+    border: 2px solid black;
+    box-shadow: 4px 4px 4px #999999;
+
+}
+.button:hover {
+    color: #EBF5FF;
+    background-color: #4312AE;
+    cursor: pointer; /* displays a hand */
+}
